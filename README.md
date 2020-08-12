@@ -1,33 +1,20 @@
 # ![alt text](https://www.aalpha.net/wp-content/uploads/2019/05/postgre-database-development-india.png)
 Welcome to the [Postgresql](https://www.postgresql.org/) documentation! This documentation helps you understand PostgreSQL quickly.
 
-[1 Getting Started](#getting-started)
-
-$~~~$[1.1 How to Install](#how-to-install)
-
-$~~~$[1.2 DROP TABLE author](#access-postgres-prompt)
-
-$~~~$[1.3 Quit Postgres Prompt](#quit-postgres-prompt)
-
-$~~~$[1.4 Create Database](#create-database)
-
-$~~~$[1.5 Access a Database with specific user](#access-a-database-with-specific-user)
-
-$~~~$[1.6 Connect and Access a Database](#connect-and-access-a-database)
-
-[2 Query](#query)
-
-$~~~$[2.1 Create Table](#create-table)
-
-$~~~$[2.2 Delete Table](#delete-table)
-
-$~~~$[2.3 Insert into Table](#insert-into-table)
-
-$~~~$[2.4 Update Table](#update-table)
-
-$~~~$[2.5 Delete from Table](#delete-from-table)
-
-$~~~$[2.6 Read from Table](#read-from-table)
+[1 Getting Started](#getting-started)<br>
+    [1.1 How to Install](#how-to-install)<br>
+    [1.2 DROP TABLE author](#access-postgres-prompt)<br>
+    [1.3 Quit Postgres Prompt](#quit-postgres-prompt)<br>
+    [1.4 Create Database](#create-database) <br>
+    [1.5 Access a Database with specific user](#access-a-database-with-specific-user)<br>
+    [1.6 Connect and Access a Database](#connect-and-access-a-database)<br>
+[2 Query](#query)<br>
+    [2.1 Create Table](#create-table)<br>
+    [2.2 Delete Table](#delete-table)<br>
+    [2.3 Insert into Table](#insert-into-table)<br>
+    [2.4 Update Table](#update-table)<br>
+    [2.5 Delete from Table](#delete-from-table)<br>
+    [2.6 Read from Table](#read-from-table)<br>
 
 
 
