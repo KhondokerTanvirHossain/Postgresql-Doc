@@ -5,24 +5,57 @@ Welcome to the [Postgresql](https://www.postgresql.org/) documentation! This doc
 ##### How to Install
     $ sudo apt install postgresql postgresql-contrib
 
-##### Accessing Postgres Prompt
+##### Access Postgres Prompt
     $ sudo -u postgres psql
 
 ##### Quit Postgres Prompt
     postgres=# \q
 
-##### Creating Database
+##### Create Database
     $ postgres createdb <db-name>
 
-##### Accessing a Database
+##### Access a Database
     $ psql -d <dbname>
 
-##### Accessing a Database with specific user
+##### Access a Database with specific user
     $ psql -d <dbname> -U <username>  -W <password>
 
-##### Connectng Accessing a Database
+##### Connect and Access a Database
     $ psql -h <hostname> -d <dbname> -U <username> -W <password>
 
+### Query
+##### Create Table
+    CREATE TABLE [IF NOT EXISTS] <table_name> (
+        <column1> datatype(length) column_contraint,
+        <column2> datatype(length) column_contraint,
+            .
+            .
+        <column3> datatype(length) column_contraint,
+        table_constraints
+    );
 
+##### Delete Table
+    DROP TABLE table_name;
 
+##### Insert into Table
+    INSERT INTO table_name(column1, column2, …)
+    VALUES (value1, value2, …);
+
+##### Update Table 
+    UPDATE table_name
+    SET column1 = value1,
+        column2 = value2,
+        ...
+    WHERE <condition>;
+
+###### Delete from Table
+    DELETE FROM table_name 
+    WHERE <condition>; 
+
+###### Read from Table
+    SELECT * FROM table_name
+    WHERE <condition>;
+
+    SELECT column1, colum2,.. FROM table_name
+    WHERE <condition>;
 
