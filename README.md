@@ -2,15 +2,26 @@
 Welcome to the [Postgresql](https://www.postgresql.org/) documentation! This documentation helps you understand PostgreSQL quickly.
 
 ### Getting Started
-#### How to Install
+##### How to Install
     $ sudo apt install postgresql postgresql-contrib
 
-#### Accessing Postgres Prompt
+##### Accessing Postgres Prompt
     $ sudo -u postgres psql
 
-#### Quit Postgres Prompt
+##### Quit Postgres Prompt
     postgres=# \q
 
+##### Creating Database
+    $ postgres createdb <db-name>
+
+##### Accessing a Database
+    $ psql -d <dbname>
+
+##### Accessing a Database with specific user
+    $ psql -d <dbname> -U <username>  -W <password>
+
+##### Connectng Accessing a Database
+    $ psql -h <hostname> -d <dbname> -U <username> -W <password>
 
 
 
