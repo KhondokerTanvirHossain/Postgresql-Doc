@@ -2,18 +2,31 @@
 Welcome to the [Postgresql](https://www.postgresql.org/) documentation! This documentation helps you understand PostgreSQL quickly.
 
 [1 Getting Started](#getting-started)
+
 $~~~$[1.1 How to Install](#how-to-install)
+
 $~~~$[1.2 DROP TABLE author](#access-postgres-prompt)
+
 $~~~$[1.3 Quit Postgres Prompt](#quit-postgres-prompt)
+
 $~~~$[1.4 Create Database](#create-database)
+
 $~~~$[1.5 Access a Database with specific user](#access-a-database-with-specific-user)
+
 $~~~$[1.6 Connect and Access a Database](#connect-and-access-a-database)
+
 [2 Query](#query)
+
 $~~~$[2.1 Create Table](#create-table)
+
 $~~~$[2.2 Delete Table](#delete-table)
+
 $~~~$[2.3 Insert into Table](#insert-into-table)
+
 $~~~$[2.4 Update Table](#update-table)
+
 $~~~$[2.5 Delete from Table](#delete-from-table)
+
 $~~~$[2.6 Read from Table](#read-from-table)
 
 
