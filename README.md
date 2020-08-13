@@ -3,7 +3,7 @@ Welcome to the [Postgresql](https://www.postgresql.org/) documentation! This doc
 
 [1 Getting Started](#getting-started)<br />
 &nbsp;&nbsp;[1.1 How to Install](#how-to-install)<br>
-&nbsp;&nbsp;[1.2 DROP TABLE author](#access-postgres-prompt)<br>
+&nbsp;&nbsp;[1.2 DROP TABLE](#access-postgres-prompt)<br>
 &nbsp;&nbsp;[1.3 Quit Postgres Prompt](#quit-postgres-prompt)<br>
 &nbsp;&nbsp;[1.4 Create Database](#create-database) <br>
 &nbsp;&nbsp;[1.5 Access a Database with specific user](#access-a-database-with-specific-user)<br>
@@ -20,6 +20,14 @@ Welcome to the [Postgresql](https://www.postgresql.org/) documentation! This doc
 &nbsp;&nbsp;[3.1 IN](#in)<br>
 &nbsp;&nbsp;[3.1 IS NULL](#is--is-not-null)<br>
 &nbsp;&nbsp;[3.1 CASE](#case)<br>
+[4 Join](#join)
+&nbsp;&nbsp;[4.1 INNER JOIN](#inner-join)
+&nbsp;&nbsp;[4.2 OUTER JOIN](#outer-join)
+&nbsp;&nbsp;[4.3 CROSS JOIN](#cross-join)
+[5 Constraint](#constraints)
+&nbsp;&nbsp;[5.1 Primary Key](#primary-key)
+&nbsp;&nbsp;[5.1 Foreign Key](#foreign-key)
+&nbsp;&nbsp;[5.1 Unique Constraint](#unique-constraint)
 
 
 
@@ -134,5 +142,31 @@ Welcome to the [Postgresql](https://www.postgresql.org/) documentation! This doc
         FROM table_A
     CROSS JOIN table_B ON pka = fka;
 
+### Constraints 
+##### Primary Key
+    CREATE TABLE <table_name> (
+        <column_1> data_type,
+        <column_2> data_type,
+        …
+        CONSTRAINT <constraint_name> PRIMARY KEY (column_pk)
+    );
+
+##### Foreign Key
+    CREATE TABLE <table_name_b> (
+        column_1 data_type,
+        column_2 data_type,
+        …
+        CONSTRAINT <constraint_name> PRIMARY KEY (column_pk),
+        CONSTRAINT <constraint_name> FOREIGN KEY (column_fk) REFERENCES table_name_a(column_pk) 
+    );
+
+##### Unique Constraint
+    CREATE TABLE <table_name_b> (
+        column_1 data_type,
+        column_2 data_type,
+        …
+        CONSTRAINT <constraint_name> PRIMARY KEY (column_pk),
+        CONSTRAINT <constraint_name> UNIQUE(column_name) 
+    );
 
 
