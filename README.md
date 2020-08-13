@@ -106,6 +106,33 @@ Welcome to the [Postgresql](https://www.postgresql.org/) documentation! This doc
       [ELSE else_result]
     END
 
+### Join
+##### INNER JOIN
+    SELECT
+        column1,
+        column2,
+        .
+        .
+        FROM table_A
+    INNER JOIN table_B ON pka = fka;
+
+##### OUTER JOIN
+    SELECT
+        column1,
+        column2,
+        .
+        .
+        FROM table_A
+    LEFT/RIGHT/FULL OUTER JOIN table_B ON pka = fka;
+
+##### CROSS JOIN
+    SELECT
+        column1,
+        column2,
+        .
+        .
+        FROM table_A
+    CROSS JOIN table_B ON pka = fka;
 
 
 
