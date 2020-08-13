@@ -26,8 +26,8 @@ Welcome to the [Postgresql](https://www.postgresql.org/) documentation! This doc
 &nbsp;&nbsp;[4.3 CROSS JOIN](#cross-join)<br>
 [5 Constraint](#constraints)<br>
 &nbsp;&nbsp;[5.1 Primary Key](#primary-key)<br>
-&nbsp;&nbsp;[5.1 Foreign Key](#foreign-key)<br>
-&nbsp;&nbsp;[5.1 Unique Constraint](#unique-constraint)<br>
+&nbsp;&nbsp;[5.2 Foreign Key](#foreign-key)<br>
+&nbsp;&nbsp;[5.3 Unique Constraint](#unique-constraint)<br>
 
 
 
