@@ -20,14 +20,14 @@ Welcome to the [Postgresql](https://www.postgresql.org/) documentation! This doc
 &nbsp;&nbsp;[3.1 IN](#in)<br>
 &nbsp;&nbsp;[3.1 IS NULL](#is--is-not-null)<br>
 &nbsp;&nbsp;[3.1 CASE](#case)<br>
-[4 Join](#join)
-&nbsp;&nbsp;[4.1 INNER JOIN](#inner-join)
-&nbsp;&nbsp;[4.2 OUTER JOIN](#outer-join)
-&nbsp;&nbsp;[4.3 CROSS JOIN](#cross-join)
-[5 Constraint](#constraints)
-&nbsp;&nbsp;[5.1 Primary Key](#primary-key)
-&nbsp;&nbsp;[5.1 Foreign Key](#foreign-key)
-&nbsp;&nbsp;[5.1 Unique Constraint](#unique-constraint)
+[4 Join](#join)<br>
+&nbsp;&nbsp;[4.1 INNER JOIN](#inner-join)<br>
+&nbsp;&nbsp;[4.2 OUTER JOIN](#outer-join)<br>
+&nbsp;&nbsp;[4.3 CROSS JOIN](#cross-join)<br>
+[5 Constraint](#constraints)<br>
+&nbsp;&nbsp;[5.1 Primary Key](#primary-key)<br>
+&nbsp;&nbsp;[5.1 Foreign Key](#foreign-key)<br>
+&nbsp;&nbsp;[5.1 Unique Constraint](#unique-constraint)<br>
 
 
 
