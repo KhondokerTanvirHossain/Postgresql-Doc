@@ -15,7 +15,11 @@ Welcome to the [Postgresql](https://www.postgresql.org/) documentation! This doc
 &nbsp;&nbsp;[2.4 Update Table](#update-table)<br>
 &nbsp;&nbsp;[2.5 Delete from Table](#delete-from-table)<br>
 &nbsp;&nbsp;[2.6 Read from Table](#read-from-table)<br>
-
+[3 Clause and Condition](#clause-and-condition)<br>
+&nbsp;&nbsp;[3.1 WHERE](#where)<br>
+&nbsp;&nbsp;[3.1 IN](#in)<br>
+&nbsp;&nbsp;[3.1 IS NULL](#is--is-not-null)<br>
+&nbsp;&nbsp;[3.1 CASE](#case)<br>
 
 
 
@@ -76,3 +80,32 @@ Welcome to the [Postgresql](https://www.postgresql.org/) documentation! This doc
 
     SELECT column1, colum2,.. FROM table_name
     WHERE <condition>;
+
+### Clause and Condition
+##### WHERE
+    SELECT select_list
+    FROM table_name
+    WHERE <condition>;
+    WHERE <conditNOT ion>;
+##### IN
+    SELECT select_list
+    FROM table_name
+    WHERE value IN (SELECT column_name FROM table_name);
+
+##### IS / IS NOT NULL
+    SELECT select_list
+    FROM table_name
+    WHERE value IS NULL;
+    /WHERE value IS NOT NULL;
+
+##### CASE
+    CASE 
+      WHEN condition_1  THEN result_1
+      WHEN condition_2  THEN result_2
+      [WHEN ...]
+      [ELSE else_result]
+    END
+
+
+
+
